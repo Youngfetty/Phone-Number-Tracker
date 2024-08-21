@@ -1,15 +1,14 @@
 import phonenumbers
 from myNumber import number
 import folium
-Key = ''
+Key = '64980e8b30b94277807fef54ed5c9f3d'
 from phonenumbers import geocoder
 phonenumbers
-
++16265411811
 sanNumber = phonenumbers.parse(number)
-
 yourLocation = geocoder.description_for_number(sanNumber, "en")
 print(yourLocation)
-
++16265411811
 #get service provider
 from phonenumbers import carrier
 service_provider = phonenumbers.parse(number)
